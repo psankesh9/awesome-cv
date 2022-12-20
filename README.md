@@ -1,4 +1,4 @@
-# Bryce Tsuyuki's Resume
+# Pratheek Sankeshi's Resume
 
 This resume is based off of the original Awesome-CV template found [here](https://github.com/posquit0/Awesome-CV). The original README follows below. All credit to the orignal authors, but I have made a few modifications to make this resume more tailored to my preferences (i.e. no color, reduced spacing, different bolding for the name at the top).
 
