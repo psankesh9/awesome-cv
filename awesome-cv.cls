@@ -612,8 +612,8 @@
 }
 
 % Define an entry of cv information for two positions under the same org
-% Usage: \cventrytwo{<position>}{<title>}{<location>}{<date>}{<description>}{<title2>}{<date2>}{<description2>}
-\newcommand*{\cventrytwo}[8]{%
+% Usage: \cventrytwo{<position>}{<title>}{<location>}{<date>}
+\newcommand*{\cventrytwo}[4]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
@@ -621,10 +621,8 @@
     \ifempty{#2#3}
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
-      \entrypositionstyle{#1} & \entrydatestyle{#4} } \\
-    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}} \\
-      \entrypositionstyle{#6} & \entrydatestyle{#7} \\
-    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#8}}
+      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    %\multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
 }
 
@@ -732,7 +730,7 @@
   \par\addvspace{2.5ex}
   \phantomsection{}
   \lettersectionstyle{#1}
-  \color{gray}\vhrulefill{0.9pt}
+  \color{red}\vhrulefill{0.9pt}
   \par\nobreak\addvspace{0.4ex}
 }
 
